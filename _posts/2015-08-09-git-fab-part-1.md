@@ -17,7 +17,7 @@ Also -- there are great tools to use alongside the command line for git:
 	
 Here are some aliases I use for git.  
 
-	:::bash
+{% highlight bash %}
 	alias ga='git add'
 	alias gb='git branch -v'
 	alias gc='git commit'
@@ -28,3 +28,4 @@ Here are some aliases I use for git.
 	alias gp='git push'
 	alias gr='git remote -v'
 	alias gs='git status'
+{% endhighlight %}

@@ -26,11 +26,11 @@ Before we get started, this relies on having your Github account synced to your 
 
 To set up your repo (example directories and values):
 
-    :::bash
+{% highlight bash %}
     cd ~/repos/pig
     git config user.name "Porky"
     git config user.email "Porky@company.com"
-
+{% endhighlight %}
 
 Also another thing you'll want to do to get colored output:
 
@@ -66,11 +66,11 @@ It is important that the prefix, in this case "PIG" matches up with the prefix o
 
 It is best to branch off of a **develop** branch so that the **master** branch is left alone since the **master** branch is often the production branch.  For really small teams and for code that is not in production yet, it's OK to branch off of master.  For this example, I'll branch off of **master**.
 
-    :::bash
+{% highlight bash %}
     cd ~/repos/pig
     git checkout master
     git checkout -b PIG-101
-
+{% endhighlight %}
 
 The `git checkout -b` creates a new branch with the name `PIG-101` and immediately switches to that branch.  From here on, all of your work for issue **PIG-101** will occur here.  If you navigate to the task in JIRA, you will see that the branch is now linked to the JIRA task.
 
@@ -78,10 +78,11 @@ The `git checkout -b` creates a new branch with the name `PIG-101` and immediate
 
 When it comes to committing code, **commit early, commit often.** Do not be concerned about committing broken code right now.  At this point in the development process, you should be concerned about having lots of save points so you can easily revert changes in a piecemeal way if you so desire.  In general, I try to make a commit whenever I add any functional piece of code.  In `Python`, it could be a function or a class.  In `Ansible`, it might be a playbook or a configuration file.  If  I have a test environment available (more about that next), I may run the code first to see if I made any mistakes or typos.
 
-    :::bash
+{% highlight bash %}
     git add tor.yml
     git commit -m "add playbook for tor role"
     git push -u origin PIG-101
+{% endhighlight %}
 
 The commands above add a file to the git index, commit it, and push a *new* branch up to the remote repository.  After the first time, you can simply do `git push`.  Now if you go to Github or JIRA you will see the new branch and any commits associated with the feature.
 

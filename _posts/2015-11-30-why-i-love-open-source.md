@@ -3,9 +3,6 @@ layout: post
 title: "Why I love open source"
 ---
 
-
-## Community
-
 There is a thriving open source community out there, just waiting to be tapped into.  Have an idea to make an application better?  The developers would love to hear it.  Have time to code it yourself?  Submit a pull request on GitHub.
 
 The community is a welcoming one.  Before I found open source, I was a systems engineer working on military systems.  You'd be hard pressed to find a community of people that are willing to talk about systems engineering for military systems outside of the DC area.  Even then, most people cannot share work they've done, or code they're written.  It's usually restricted in some capacity or can only be used and sold by The Company.

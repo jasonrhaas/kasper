@@ -3,8 +3,6 @@ layout: post
 title: "My approach to design"
 ---
 
-# The Zen of Python
-
 If you are a python programmer, or doing any technical design for that matter, I highly recommend checking out *The Zen of Python*.  If you are on OSX or Linux, open up a terminal and type `python -c 'import this'`.  You should see this:
 
     :::text

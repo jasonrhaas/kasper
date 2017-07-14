@@ -1,6 +1,6 @@
-name: Your New Jekyll Site
-description: Blogging about stuffs
-meta_description: "Your New Jekyll Site, Blogging about stuffs"
+name: Python Powered
+description: Blogging about Python
+meta_description: "Python, APIs, data, AI"
 
 markdown: kramdown
 highlighter: rouge
@@ -13,5 +13,5 @@ gems: [jekyll-paginate]
 # github.url: https://jasonrhaas.github.io/kasper
 
 # Details for the RSS feed generator
-url:            'blog url'
-author:         'Your Name'
+url:            'http://jasonrhaas.com'
+author:         'Jason Haas'
