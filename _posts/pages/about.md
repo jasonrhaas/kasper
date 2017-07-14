@@ -1,7 +1,11 @@
----
-layout: page
-title: About me 
----
+Title: About
+Date: 2010-12-03 10:20
+Modified: 2010-12-05 19:30
+Category: About
+Tags: pelican, publishing
+Slug: about
+Authors: Jason Haas
+Summary: About
 
 ## About Me
 
@@ -23,4 +27,3 @@ This blog is meant to share some tips & tricks I learn along the way, trying to 
 
 <!-- ![Alt Text]({filename}/images/TwitterLogo.png) -->
 - [Twitter](http://twitter.com/jasonrhaas)
-
