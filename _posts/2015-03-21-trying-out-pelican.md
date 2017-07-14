@@ -1,9 +1,6 @@
 ---
 layout: post
 title: Trying Out Pelican
-categories: [blogs]
-tags: [blogs, pelican]
-published: True
 
 ---
 
