@@ -6,11 +6,11 @@ markdown: kramdown
 highlighter: rouge
 logo: false
 paginate: 15
-baseurl: /
+baseurl: /kasper
 domain_name: 'http://yourblog-domain.com'
 google_analytics: 'UA-XXXXXXXX-X'
 gems: [jekyll-paginate]
-github.url: https://jasonrhaas.github.io/kasper
+github.url: https://jasonrhaas.github.io
 
 # Details for the RSS feed generator
 url:            'blog url'
